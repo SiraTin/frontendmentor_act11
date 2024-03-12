@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-color: #19A1AD;
+    background-repeat: no-repeat;
+    background-position: -300px -400px, 1300px 700px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+
+hr{
+    opacity: 0.25;
+}
+
+
+.container{
+    width: 100%;
+    padding-top: 175px;
+    
+}
+
+.bg_card{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card{
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+    font-family: "Roboto";
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile_img{
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -50px;
+    
+}
+
+.name{
+    padding: 15px 0 10px 0;
+    font-size: 1.25rem;
+}
+
+.grey_text{
+    color: #848388;
+    padding-left: 5px;
+}
+
+.city{
+    padding-bottom: 30px;
+    color: #848388;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding: 30px 0 20px 0;
+}
+
+.b_text{
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.space{
+    padding: 5px 0;
+    color: #848388;
+    font-size: 0.75rem;
+}
+
+.attribution{
+    margin: 20px 0;
+    text-align: center;
+}
